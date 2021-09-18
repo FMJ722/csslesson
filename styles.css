@@ -1,0 +1,190 @@
+body {
+    background-color: rgb(250, 250, 243);
+    font-size: 17px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a/*все ссылки*/ {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: blue;
+}
+a:visited {
+    color: goldenrod;
+}
+
+.avatar {/*фотка*/
+    width: 250px;
+    border-radius: 40px;
+    box-shadow: 4px 8px 14px rgba(245, 128, 128, 0.349)
+}
+
+.info p {
+    color: salmon;
+    margin: 0;
+    font-style: italic;
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+    letter-spacing: 3px;
+}
+
+.info {
+
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.infotext {
+    margin-left: 40px;
+}
+
+/*.social {
+    background-color: rgb(255, 213, 213);
+    border-radius: 15px;
+    padding:5px 20px 25px 30px;
+    border: 5px double rgb(248, 198, 198);
+    margin: none;
+}*/
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+ 
+/*.box-model > div {
+    float: left;
+    background: black;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: border-box;
+}*/
+
+.bg-yellow {
+    background: #fff9dc;
+    padding-left: 45px;
+}
+.bg-green {
+    background: #e5ffe7;
+    padding-left: 45px;
+}
+.bg-red {
+    background: #ffe5e5;
+    padding-left: 45px;
+}
+
+.card {
+    padding-left: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+
+.list {
+    padding: 0 20;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 5px;
+}
+
+.tablework {
+    width: 100%;
+}
+.link-list{/*список про семью*/
+    list-style: square;
+    padding: 0;
+
+}
+.link-list li {/*внутри списка обращаемся к каждому елементу*/
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+.ppc {
+    list-style: square;
+    padding: 0;
+    padding-bottom: 5px;
+}
+.ppc li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.contactform h2 {
+    text-align: center;
+}
+
+.formgroup label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+.formgroup input,
+.formgroup textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom:  1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .formgroup {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.button {
+    background: black;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+}
+.button:hover {
+    opacity:  0.7;
+}
+/*possition*/
+
+/*.position {
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+}
+
+.box {
+    position: fixed;
+    bottom: 50;
+    right: 50;
+    border-radius: 50%;
+    top: 150px;
+    width: 50px;
+    height: 50px;
+    background: lightcoral;
+}*/
+
+
+
+
